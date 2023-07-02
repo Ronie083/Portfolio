@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F6F6F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    max-width: 200px;
+    margin: 10px auto;
+    border: none;
+    border-top: 4px solid #388087;
+}
+
+
+svg{
+    height: 50px;
+    margin: 10px auto;
+}
