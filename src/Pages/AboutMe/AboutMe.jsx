@@ -1,6 +1,15 @@
 import myImg from '../../assets/20230415_194618.jpg'
 
 const AboutMe = () => {
+
+    const handleDownloadCv = () => {
+        const cvUrl = '/Muhammad Amzad Hosen-CV For React developer.pdf';
+        const anchor = document.createElement('a');
+        anchor.href = cvUrl;
+        anchor.download = 'Muhammad Amzad Hosen-CV For React developer.pdf';
+        anchor.click();
+      };
+
     return (
         <div className="text-center max-w-6xl mx-auto my-14">
             <h1 className="text-4xl font-semibold">Know Me More</h1>
@@ -23,7 +32,7 @@ const AboutMe = () => {
                     <p><span className="font-bold">Age:</span> 23</p>
                     <hr />
                     <p><span className="font-bold">From:</span> Chittagong, Bangladesh</p>
-                    <button className="btn btn-outline border-[#388087] rounded-3xl mt-5">Download CV</button>
+                    <button className="btn btn-outline border-[#388087] rounded-3xl mt-5" onClick={handleDownloadCv}>Download CV</button>
                 </div>
             </div>
         </div>
