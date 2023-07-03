@@ -6,10 +6,10 @@ const Banner = () => {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
-                    <h1 className="mb-5 text-3xl uppercase" style={{ fontFamily: 'Montserrat, sans-serif' }}>Hi, I am Amzad.</h1>
-                    <h1 className="mb-5 text-5xl font-bold" style={{ fontFamily: 'Titillium Web, sans-serif' }}>An MERN Stack Web Developer</h1>
-                    <div className="text-left md:ml-52 max-w-xs text-[#f6f6f2]">
-                        <p className="mb-5 text-2xl">Crafting Seamless Web Solutions. <br /> Ignite <br /> Your Web Projects with me.</p>
+                    <h1 className="mb-5 text-xl md:text-3xl uppercase" style={{ fontFamily: 'Montserrat, sans-serif' }}>Hi, I am Amzad.</h1>
+                    <h1 className="mb-5 text-3xl md:text-5xl font-bold" style={{ fontFamily: 'Titillium Web, sans-serif' }}>An MERN Stack Web Developer</h1>
+                    <div className="md:text-left md:ml-52 max-w-xs text-[#f6f6f2]">
+                        <p className="mb-5 md:text-2xl">Crafting Seamless Web Solutions. <br /> Ignite <br /> Your Web Projects with me.</p>
                     </div>
                     <button className="btn btn-primary mr-5">Resume</button>
                     <button className="btn btn-primary">Projects</button>

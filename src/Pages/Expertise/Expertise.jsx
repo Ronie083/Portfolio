@@ -17,7 +17,7 @@ const Expertise = () => {
                         rewind={true}
                         navigation={true}
                         modules={[Navigation]}
-                        className="mySwiper"
+                        className="mySwiper max-h-min"
                     >
                         <SwiperSlide>
                             <div className="max-w-3xl mx-auto">
